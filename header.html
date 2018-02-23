@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Naturalbrand</title>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="js/slick.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/social-likes_classic.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <script src="js/social-likes.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/jquery.responsiveTabs.min.js"></script>
+    <link rel="stylesheet" href="css/responsive-tabs.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-main-page">
+    <header id="header">
+        <div class="container">
+            <div class="mobile-menu-top">
+                <ul class="menu">
+                    <li>
+                        <a href="">Доставка и оплата</a>
+                    </li>
+                    <li>
+                        <a href="">О магазине</a>
+                    </li>
+                    <li>
+                        <a href="">Отзывы</a>
+                    </li>
+                    <li><a href="">Контакты</a> </li>
+                    <li>
+                        <a href="tel:+84955544322" class="phone">8 (495) <span>554-43-22</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <a href=""><img src="images/icons/logo.png" alt="logo"></a>
+            </div>
+            <div class="phone-first">
+                <div class="icon">
+                    <img src="images/icons/phone.png" alt="phone">
+                </div>
+                <div class="text">
+                    <span class="title"> 8 800 <strong>775-72-64 </strong></span>
+                    <span class="sub-title">Ежедневно с 09 до 23</span>
+                </div>
+            </div>
+            <div class="phone-second">
+                <div class="text">
+                    <span class="title">8 495 <strong>775-72-61</strong></span>
+                    <span class="sub-title">Позвонить бесплатно</span></div>
+            </div>
+            <div class="office">
+                <div class="icon">
+                    <img src="images/icons/office.png" alt="office">
+                </div>
+                <div class="text">
+                    <span class="title">КАБИНЕТ</span>
+                    <a href="" class="sub-title">Войти на сайт</a>
+                </div>
+                <div class="pop-up-enter-and-registering-wrapper">
+                    <div id="pop-up-enter-and-registering" class="pop-up-enter-and-registering">
+                        <div class="status"><span>Статус заказа</span></div>
+                        <div class="you-watched"><span>Вы смотрели</span></div>
+                        <div class="button-enter"><a href="#pop-up-enter-your-personal-cabinet" class="enter-to-office open-popup-link">Войти на сайт</a></div>
+                        <div class="button-registering"><a href="">Зарегистрироваться</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="favorites">
+                <div class="icon">
+                    <img src="images/icons/favorites.png" alt="favorites">
+                </div>
+                <div class="text">
+                    <span class="title">ИЗБРАННОЕ</span>
+                    <span class="sub-title">Нет товаров</span>
+                </div>
+            </div>
+            <div class="basket">
+                <div class="icon">
+                    <img src="images/icons/basket.png" alt="basket">
+                </div>
+                <div class="text">
+                    <span class="title">КОРЗИНА</span>
+                    <span class="sub-title">Пока пуста</span>
+                </div>
+                <div class="pop-up-total-product-in-basket-wrapper">
+                    <div id="pop-up-total-product-in-basket" class="pop-up-total-product-in-basket">
+                        <div class="product-basket">
+                            <div class="product-basket-item">
+                                <div class="thumbnail"><img src="images/product/product-basket-thumbnail-1.jpg" alt=""></div>
+                                <div class="about-product">
+                                    <div class="title">Ecover</div>
+                                    <div class="description">Жидкое мыло для мытья рук Цитрус</div>
+                                    <div class="weight">Вес: 250 г</div>
+                                    <div class="small-price">985.-</div>
+                                </div>
+                                <div class="count">
+                                    <div class="select">
+                                        <select name="" id="">
+                                            <option value="">100</option>
+                                            <option value="">2</option>
+                                            <option value="">34440</option>
+                                            <option value="">44040</option>
+                                            <option value="">51</option>
+                                            <option value="">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="clear-from-backer">
+                                    <div class="clear">
+                                        <a href=""></a>
+                                    </div>
+                                    <div class="move-to-favorites">
+                                        <a href=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-basket-item">
+                                <div class="thumbnail"><img src="images/product/product-basket-thumbnail-1.jpg" alt=""></div>
+                                <div class="about-product">
+                                    <div class="title">Ecover</div>
+                                    <div class="description">Жидкое мыло для мытья рук Цитрус</div>
+                                    <div class="weight">Вес: 250 г</div>
+                                    <div class="small-price">985.-</div>
+                                </div>
+                                <div class="count">
+                                    <div class="select">
+                                        <select name="" id="">
+                                            <option value="">100</option>
+                                            <option value="">2</option>
+                                            <option value="">34440</option>
+                                            <option value="">44040</option>
+                                            <option value="">51</option>
+                                            <option value="">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="clear-from-backer">
+                                    <div class="clear">
+                                        <a href=""></a>
+                                    </div>
+                                    <div class="move-to-favorites">
+                                        <a href=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="total-price"><span class="total">Итого</span><span class="price">985.-</span></div>
+                            <div class="button-go-to-basket"><a href="">Перейти в корзину</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="bg-main-page-top-bush">
+        <div class="bg-white">
+            <div id="nav">
+                <ul class="menu">
+                    <li><a href="">Главная</a></li>
+                    <li><a href="">Доставка и оплата</a></li>
+                    <li><a href="">О магазине полезные </a></li>
+                    <li><a href="">Статьи как сделать заказ? </a></li>
+                    <li><a href="">Оптовая торговля акции</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+                <div id="mobile-search-top">
+                    <div class="container">
+                        <div class="smart-search">
+                            <div class="search-input">
+                                <form action="#" method="get">
+                                    <input type="search" name="q" value="" placeholder="Начните вводить название товара">
+                                    <input type="submit" value="">
+                                </form>
+                            </div>
+                            <div class="smart-search-bottom">
+                                <div class="smart-search-bottom-left">
+                                    <div class="tips">
+                                        <ul>
+                                            <li>масло для тела </li>
+                                            <li>масло для волос </li>
+                                            <li>масло для ароматерапии</li>
+                                            <li>масло для век </li>
+                                            <li>масло для укрепление ногтей</li>
+                                            <li>масло для тела </li>
+                                            <li>масло для волос</li>
+                                        </ul>
+                                    </div>
+                                    <div class="found-category">
+                                        <div class="title">Категории</div>
+                                        <ul>
+                                            <li><a href="">масло для тела</a></li>
+                                            <li><a href="">масло для волос </a></li>
+                                            <li><a href="">масло для ароматерапии</a></li>
+                                            <li><a href="">масло для тела </a></li>
+                                            <li><a href="">масло для волос </a></li>
+                                            <li><a href="">масло для ароматерапии</a></li>
+                                            <li><a href="">масло для тела </a></li>
+                                            <li><a href="">масло для волос </a></li>
+                                            <li><a href="">масло для ароматерапии</a></li>
+                                            <li><a href="">масло для тела </a></li>
+                                            <li><a href="">масло для волос </a></li>
+                                            <li><a href="">масло для ароматерапии</a></li>
+                                            <li><a href="">масло для тела </a></li>
+                                            <li><a href="">масло для волос </a></li>
+                                            <li><a href="">масло для ароматерапии</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="smart-search-bottom-right">
+                                    <div class="found-producs">
+                                        <div class="found-producs-item">
+                                            <a href="#">
+                                                <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                                <div class="text">
+                                                    <div class="title">Ecover Масло органическое льняное</div>
+                                                    <div class="milliliters">100 мл</div>
+                                                    <div class="price">2 550.-</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="found-producs-item">
+                                            <a href="#">
+                                                <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                                <div class="text">
+                                                    <div class="title">Ecover Масло органическое льняное</div>
+                                                    <div class="milliliters">100 мл</div>
+                                                    <div class="price">2 550.-</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="found-producs-item">
+                                            <a href="#">
+                                                <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                                <div class="text">
+                                                    <div class="title">Ecover Масло органическое льняное</div>
+                                                    <div class="milliliters">100 мл</div>
+                                                    <div class="price">2 550.-</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="found-producs-item">
+                                            <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                            <div class="text">
+                                                <div class="title">Ecover Масло органическое льняное</div>
+                                                <div class="milliliters">100 мл</div>
+                                                <div class="price">2 550.-</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-tabs">
+                        <div class="container">
+                            <div class="search-bg">
+                                <div class="tabs-category-brands">
+                                    <a href="" class="tab-category">Категории</a>
+                                    <a href="" class="tab-brand ">Бренды</a>
+                                </div>
+                                <div class="tabs-discounts-news">
+                                    <div class="tab-discounts-wrapper">
+                                        <a href="" class="tab-discounts"><img src="images/icons/head-mobile.png" alt="">
+                                        </a>
+                                        <div class="pop-up-enter-and-registering-wrapper-mobile">
+                                            <div id="pop-up-enter-and-registering-mobile" class="pop-up-enter-and-registering-mobile">
+                                                <div class="status"><span>Статус заказа</span></div>
+                                                <div class="you-watched"><span>Вы смотрели</span></div>
+                                                <div class="button-enter"><a href="#pop-up-enter-your-personal-cabinet" class="enter-to-office open-popup-link">Войти на сайт</a></div>
+                                                <div class="button-registering"><a href="">Зарегистрироваться</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-news-wrapper">
+                                        <a href="" class="tab-news"><img src="images/icons/heart-mobile.png" alt=""></a>
+                                    </div>
+                                    <div class="tab-gift-wrapper">
+                                        <a href="" class="tab-gift"><img src="images/icons/cart-mobile.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="nav-mobile-left-back-button">Назад</div>
+            </div>
+            <div id="main-mobile">
+                <div id="page-right">
+                    <div id="nav-mobile-left">
+                        <ul class="menu-category">
+                            <li><a href="">Женская косметика111</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Женская косметика</li>
+                                    <li><a href="">Женская косметика</a>
+                                        <ul class="sub-menu">
+                                            <li class="title">Женская косметика</li>
+                                            <li><a href="">Доставка и оплата</a></li>
+                                            <li><a href="">Доставка и оплата</a></li>
+                                            <li><a href="">О магазине полезные </a></li>
+                                            <li><a href="">Статьи как сделать заказ? </a></li>
+                                            <li><a href="">Оптовая торговля акции</a></li>
+                                            <li><a href="">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Мужская косметика</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Детская косметика</a></li>
+                            <li><a href="">Ароматерапия</a></li>
+                            <li><a href="">Товары для дома</a></li>
+                        </ul>
+                        <ul class="menu-brand">
+                            <li><a href="">A</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">B</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">C</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">D</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">E</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">F</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">G</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">H</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">I</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">J</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">K</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">L</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">M</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">N</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">O</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">P</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Q</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">R</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">S</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">T</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">U</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">V</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">W</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">X</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Y</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Z</a>
+                                <ul class="sub-menu">
+                                    <li class="title">Доставка и оплата</li>
+                                    <li><a href="">Доставка и оплата</a></li>
+                                    <li><a href="">О магазине полезные </a></li>
+                                    <li><a href="">Статьи как сделать заказ? </a></li>
+                                    <li><a href="">Оптовая торговля акции</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">0-9</a></li>
+                            <li class="language"><a href="">Кирилица</a></li>
+                            <li><a href="">А</a></li>
+                            <li><a href="">Б</a></li>
+                            <li><a href="">В</a></li>
+                            <li><a href="">Г</a></li>
+                            <li><a href="">Д</a></li>
+                        </ul>
+                    </div>
+                    <div id="main-slider">
+                        <div class="container">
+                            <div class="slider">
+                                <div class="slide" style="background-image: url(images/slider/slider-1.jpg);"></div>
+                                <div class="slide" style="background-image: url(images/slider/slider-2.jpg);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="category">
+                        <div class="container">
+                            <ul class="list">
+                                <li>
+                                    <a href="">Женская косметика</a>
+                                    <ul class="sub-catergory">
+                                        <li>
+                                            <a href="">
+                                                <span class="title">Уход за лицом<span class="new">New</span></span>
+                                                <span class="sub-title">Крема, Тоники,Пилинги,Маски</span></a>
+                                            <ul class="sub-catergory-list">
+                                                <li>
+                                                    <a href="">Крема</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Тоники</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Пилинги</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Маски</a>
+                                                </li>
+                                                <li class="see-all-products">
+                                                    <a href="" class="color-blue">Смотреть все товары</a>
+                                                    <span class="count">10</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Мужская косметика</a>
+                                    <ul class="sub-catergory">
+                                        <li>
+                                            <a href="">
+                                                <span class="title">Уход за лицом<span class="new">New</span></span>
+                                                <span class="sub-title">Крема, Тоники,Пилинги,Маски</span></a>
+                                            <ul class="sub-catergory-list">
+                                                <li>
+                                                    <a href="">Крема</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Тоники</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Пилинги</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Маски</a>
+                                                </li>
+                                                <li class="see-all-products">
+                                                    <a href="">Смотреть все товары</a>
+                                                    <span class="count">10</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Детская косметика</a>
+                                    <ul class="sub-catergory">
+                                        <li>
+                                            <a href="">
+                                                <span class="title">Уход за лицом <span class="new">New</span></span>
+                                                <span class="sub-title">Крема, Тоники,Пилинги,Маски</span></a>
+                                            <ul class="sub-catergory-list">
+                                                <li>
+                                                    <a href="">Крема</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Тоники</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Пилинги</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Маски</a>
+                                                </li>
+                                                <li class="see-all-products">
+                                                    <a href="">Смотреть все товары</a>
+                                                    <span class="count">10</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Ароматерапия</a>
+                                    <ul class="sub-catergory">
+                                        <li>
+                                            <a href="">
+                                                <span class="title">Уход за лицом <span class="new">New</span></span>
+                                                <span class="sub-title">Крема, Тоники,Пилинги,Маски</span></a>
+                                            <ul class="sub-catergory-list">
+                                                <li>
+                                                    <a href="">Крема</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Тоники</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Пилинги</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Маски</a>
+                                                </li>
+                                                <li class="see-all-products">
+                                                    <a href="">Смотреть все товары</a>
+                                                    <span class="count">10</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Товары для дома</a>
+                                    <ul class="sub-catergory">
+                                        <li>
+                                            <a href="">
+                                                <span class="title">Уход за лицом <span class="new">New</span></span>
+                                                <span class="sub-title">Крема, Тоники,Пилинги,Маски</span></a>
+                                            <ul class="sub-catergory-list">
+                                                <li>
+                                                    <a href="">Крема</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Тоники</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Пилинги</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Маски</a>
+                                                </li>
+                                                <li class="see-all-products">
+                                                    <a href="">Смотреть все товары</a>
+                                                    <span class="count">10</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="search">
+                        <div class="container">
+                            <div class="search-bg">
+                                <div class="tabs-category-brands">
+                                    <a href="" class="tab-category active">Категории</a>
+                                    <a href="" class="tab-brand ">Бренды</a>
+                                </div>
+                                <div class="smart-search">
+                                    <div class="serach-input">
+                                        <form action="#" method="get">
+                                            <input type="search" name="q" value="" placeholder="Начните вводить название товара">
+                                            <input type="submit" value="">
+                                        </form>
+                                    </div>
+                                    <div class="smart-search-bottom">
+                                        <div class="smart-search-bottom-left">
+                                            <div class="tips">
+                                                <ul>
+                                                    <li>масло для тела </li>
+                                                    <li>масло для волос </li>
+                                                    <li>масло для ароматерапии</li>
+                                                    <li>масло для век </li>
+                                                    <li>масло для укрепление ногтей</li>
+                                                    <li>масло для тела </li>
+                                                    <li>масло для волос</li>
+                                                </ul>
+                                            </div>
+                                            <div class="found-category">
+                                                <div class="title">Категории</div>
+                                                <ul>
+                                                    <li><a href="">масло для тела</a></li>
+                                                    <li><a href="">масло для волос </a></li>
+                                                    <li><a href="">масло для ароматерапии</a></li>
+                                                    <li><a href="">масло для тела </a></li>
+                                                    <li><a href="">масло для волос </a></li>
+                                                    <li><a href="">масло для ароматерапии</a></li>
+                                                    <li><a href="">масло для тела </a></li>
+                                                    <li><a href="">масло для волос </a></li>
+                                                    <li><a href="">масло для ароматерапии</a></li>
+                                                    <li><a href="">масло для тела </a></li>
+                                                    <li><a href="">масло для волос </a></li>
+                                                    <li><a href="">масло для ароматерапии</a></li>
+                                                    <li><a href="">масло для тела </a></li>
+                                                    <li><a href="">масло для волос </a></li>
+                                                    <li><a href="">масло для ароматерапии</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="smart-search-bottom-right">
+                                            <div class="found-producs">
+                                                <div class="found-producs-item">
+                                                    <a href="#">
+                                                        <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                                        <div class="text">
+                                                            <div class="title">Ecover Масло органическое льняное</div>
+                                                            <div class="milliliters">100 мл</div>
+                                                            <div class="price">2 550.-</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="found-producs-item">
+                                                    <a href="#">
+                                                        <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                                        <div class="text">
+                                                            <div class="title">Ecover Масло органическое льняное</div>
+                                                            <div class="milliliters">100 мл</div>
+                                                            <div class="price">2 550.-</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="found-producs-item">
+                                                    <a href="#">
+                                                        <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                                        <div class="text">
+                                                            <div class="title">Ecover Масло органическое льняное</div>
+                                                            <div class="milliliters">100 мл</div>
+                                                            <div class="price">2 550.-</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="found-producs-item">
+                                                    <div class="thumbnail"><img src="images/product/search-thumbnail-product.jpg" alt=""></div>
+                                                    <div class="text">
+                                                        <div class="title">Ecover Масло органическое льняное</div>
+                                                        <div class="milliliters">100 мл</div>
+                                                        <div class="price">2 550.-</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabs-discounts-news">
+                                    <a href="" class="tab-discounts">Скидки</a>
+                                    <a href="" class="tab-news">Новинки</a>
+                                    <a href="" class="tab-gift"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
